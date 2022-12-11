@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2ADF7B9261EE0EA9AFDC909 /* Pods_dz_25_BombDefeatRadius.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0C06AA0195C4DC4A8B76400 /* Pods_dz_25_BombDefeatRadius.framework */; };
+		C75BE8A1282A90DD00B6682E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75BE8A0282A90DD00B6682E /* AppDelegate.swift */; };
+		C75BE8A3282A90DD00B6682E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75BE8A2282A90DD00B6682E /* SceneDelegate.swift */; };
+		C75BE8A5282A90DD00B6682E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75BE8A4282A90DD00B6682E /* ViewController.swift */; };
+		C75BE8A8282A90DD00B6682E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C75BE8A6282A90DD00B6682E /* Main.storyboard */; };
+		C75BE8AA282A90DE00B6682E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C75BE8A9282A90DE00B6682E /* Assets.xcassets */; };
+		C75BE8AD282A90DE00B6682E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C75BE8AB282A90DE00B6682E /* LaunchScreen.storyboard */; };
+		C75BE8B7282ACC3A00B6682E /* ExplosionPower .swift in Sources */ = {isa = PBXBuildFile; fileRef = C75BE8B6282ACC3A00B6682E /* ExplosionPower .swift */; };
+		C75BE8B9282B199D00B6682E /* Explosion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75BE8B8282B199D00B6682E /* Explosion.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA19D396EEB13A0A15153C79 /* Pods-dz.25.BombDefeatRadius.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dz.25.BombDefeatRadius.release.xcconfig"; path = "Target Support Files/Pods-dz.25.BombDefeatRadius/Pods-dz.25.BombDefeatRadius.release.xcconfig"; sourceTree = "<group>"; };
+		BD6A7C8CA18297B3CF0ACD46 /* Pods-dz.25.BombDefeatRadius.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dz.25.BombDefeatRadius.debug.xcconfig"; path = "Target Support Files/Pods-dz.25.BombDefeatRadius/Pods-dz.25.BombDefeatRadius.debug.xcconfig"; sourceTree = "<group>"; };
+		C75BE89D282A90DD00B6682E /* dz.25.BombDefeatRadius.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dz.25.BombDefeatRadius.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C75BE8A0282A90DD00B6682E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C75BE8A2282A90DD00B6682E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C75BE8A4282A90DD00B6682E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C75BE8A7282A90DD00B6682E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C75BE8A9282A90DE00B6682E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C75BE8AC282A90DE00B6682E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C75BE8AE282A90DE00B6682E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C75BE8B6282ACC3A00B6682E /* ExplosionPower .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ExplosionPower .swift"; sourceTree = "<group>"; };
+		C75BE8B8282B199D00B6682E /* Explosion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Explosion.swift; sourceTree = "<group>"; };
+		F0C06AA0195C4DC4A8B76400 /* Pods_dz_25_BombDefeatRadius.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dz_25_BombDefeatRadius.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C75BE89A282A90DD00B6682E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2ADF7B9261EE0EA9AFDC909 /* Pods_dz_25_BombDefeatRadius.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2580D07C5E0FB01F1F53C88B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0C06AA0195C4DC4A8B76400 /* Pods_dz_25_BombDefeatRadius.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4138CD9599CAEFAF379A819 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD6A7C8CA18297B3CF0ACD46 /* Pods-dz.25.BombDefeatRadius.debug.xcconfig */,
+				BA19D396EEB13A0A15153C79 /* Pods-dz.25.BombDefeatRadius.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C75BE894282A90DD00B6682E = {
+			isa = PBXGroup;
+			children = (
+				C75BE89F282A90DD00B6682E /* dz.25.BombDefeatRadius */,
+				C75BE89E282A90DD00B6682E /* Products */,
+				B4138CD9599CAEFAF379A819 /* Pods */,
+				2580D07C5E0FB01F1F53C88B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C75BE89E282A90DD00B6682E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C75BE89D282A90DD00B6682E /* dz.25.BombDefeatRadius.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C75BE89F282A90DD00B6682E /* dz.25.BombDefeatRadius */ = {
+			isa = PBXGroup;
+			children = (
+				C75BE8A0282A90DD00B6682E /* AppDelegate.swift */,
+				C75BE8A2282A90DD00B6682E /* SceneDelegate.swift */,
+				C75BE8A4282A90DD00B6682E /* ViewController.swift */,
+				C75BE8B6282ACC3A00B6682E /* ExplosionPower .swift */,
+				C75BE8A6282A90DD00B6682E /* Main.storyboard */,
+				C75BE8B8282B199D00B6682E /* Explosion.swift */,
+				C75BE8A9282A90DE00B6682E /* Assets.xcassets */,
+				C75BE8AB282A90DE00B6682E /* LaunchScreen.storyboard */,
+				C75BE8AE282A90DE00B6682E /* Info.plist */,
+			);
+			path = dz.25.BombDefeatRadius;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C75BE89C282A90DD00B6682E /* dz.25.BombDefeatRadius */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C75BE8B1282A90DE00B6682E /* Build configuration list for PBXNativeTarget "dz.25.BombDefeatRadius" */;
+			buildPhases = (
+				219B7A1D9BE3870D708D2A82 /* [CP] Check Pods Manifest.lock */,
+				C75BE899282A90DD00B6682E /* Sources */,
+				C75BE89A282A90DD00B6682E /* Frameworks */,
+				C75BE89B282A90DD00B6682E /* Resources */,
+				055BB44BDB34CC5A9F8F93C6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dz.25.BombDefeatRadius;
+			productName = dz.25.BombDefeatRadius;
+			productReference = C75BE89D282A90DD00B6682E /* dz.25.BombDefeatRadius.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C75BE895282A90DD00B6682E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					C75BE89C282A90DD00B6682E = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = C75BE898282A90DD00B6682E /* Build configuration list for PBXProject "dz.25.BombDefeatRadius" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C75BE894282A90DD00B6682E;
+			productRefGroup = C75BE89E282A90DD00B6682E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C75BE89C282A90DD00B6682E /* dz.25.BombDefeatRadius */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C75BE89B282A90DD00B6682E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C75BE8AD282A90DE00B6682E /* LaunchScreen.storyboard in Resources */,
+				C75BE8AA282A90DE00B6682E /* Assets.xcassets in Resources */,
+				C75BE8A8282A90DD00B6682E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		055BB44BDB34CC5A9F8F93C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dz.25.BombDefeatRadius/Pods-dz.25.BombDefeatRadius-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dz.25.BombDefeatRadius/Pods-dz.25.BombDefeatRadius-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dz.25.BombDefeatRadius/Pods-dz.25.BombDefeatRadius-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		219B7A1D9BE3870D708D2A82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dz.25.BombDefeatRadius-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C75BE899282A90DD00B6682E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C75BE8A5282A90DD00B6682E /* ViewController.swift in Sources */,
+				C75BE8A1282A90DD00B6682E /* AppDelegate.swift in Sources */,
+				C75BE8B7282ACC3A00B6682E /* ExplosionPower .swift in Sources */,
+				C75BE8B9282B199D00B6682E /* Explosion.swift in Sources */,
+				C75BE8A3282A90DD00B6682E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C75BE8A6282A90DD00B6682E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C75BE8A7282A90DD00B6682E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C75BE8AB282A90DE00B6682E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C75BE8AC282A90DE00B6682E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C75BE8AF282A90DE00B6682E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C75BE8B0282A90DE00B6682E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C75BE8B2282A90DE00B6682E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD6A7C8CA18297B3CF0ACD46 /* Pods-dz.25.BombDefeatRadius.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QD62J8ZP43;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = dz.25.BombDefeatRadius/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alina-prrr.dz-25-BombDefeatRadius";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C75BE8B3282A90DE00B6682E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA19D396EEB13A0A15153C79 /* Pods-dz.25.BombDefeatRadius.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QD62J8ZP43;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = dz.25.BombDefeatRadius/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alina-prrr.dz-25-BombDefeatRadius";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C75BE898282A90DD00B6682E /* Build configuration list for PBXProject "dz.25.BombDefeatRadius" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C75BE8AF282A90DE00B6682E /* Debug */,
+				C75BE8B0282A90DE00B6682E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C75BE8B1282A90DE00B6682E /* Build configuration list for PBXNativeTarget "dz.25.BombDefeatRadius" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C75BE8B2282A90DE00B6682E /* Debug */,
+				C75BE8B3282A90DE00B6682E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C75BE895282A90DD00B6682E /* Project object */;
+}
